@@ -5,9 +5,6 @@ dotenv.config();
 
 const url = "https://ropsten.infura.io/v3/1871daf3f177406299a365a26833fd59";
 
-// ABI - Application Binary Interface
-const abi = require("./abi/2.json");
-
 const web3 = new Web3(new Web3(url));
 
 const account1 = "0x98575121203CA00725676C12d8D862bEC950f2fB";
