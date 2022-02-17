@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 const Tx = require("ethereumjs-tx").Transaction;
 dotenv.config();
 
-const url = "https://ropsten.infura.io/v3/1871daf3f177406299a365a26833fd59";
+const url = process.env.ROPSTEN_INFURA_URL;
 
 const web3 = new Web3(new Web3(url));
 
