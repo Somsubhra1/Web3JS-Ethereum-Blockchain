@@ -1,0 +1,17 @@
+{
+  "name": "web3js-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Somsubhra Das",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ethereumjs-tx": "^2.1.2",
+    "web3": "^1.7.0"
+  }
+}
