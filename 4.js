@@ -28,6 +28,8 @@ dappTokenContract.methods.balanceOf(account1).call((err, result) => {
   console.log(result);
 });
 
+// Deploy smart contract
+
 // console.log(dappTokenContract);
 
 // create transaction object
