@@ -19,7 +19,7 @@ const dappTokenContract = new web3.eth.Contract(abi, contractAddress);
 // Write data to smart contract
 
 web3.eth.getTransactionCount(account1, (err, txCount) => {
-  const data = dappTokenContract.methods.transfer(account2, 1000).encodeABI();
+  const data = dappTokenContract.methods.transfer(account2, 1000).encodeABI(); // encoding abi
   // build the transaction
   const txObject = {
     nonce: web3.utils.toHex(txCount),
