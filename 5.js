@@ -1,3 +1,5 @@
+// writing smart contracts
+
 const Web3 = require("web3");
 const dotenv = require("dotenv");
 const abi = require("./abi/4.json");

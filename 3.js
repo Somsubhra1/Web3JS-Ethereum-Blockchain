@@ -1,3 +1,5 @@
+// Ethereum transactions
+
 const Web3 = require("web3");
 const dotenv = require("dotenv");
 const Tx = require("ethereumjs-tx").Transaction;

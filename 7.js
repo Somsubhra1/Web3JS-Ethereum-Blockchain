@@ -1,3 +1,5 @@
+// inspecting blocks
+
 const Web3 = require("web3");
 const dotenv = require("dotenv");
 dotenv.config();
